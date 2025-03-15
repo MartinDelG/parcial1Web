@@ -1,4 +1,4 @@
-import banner from "./banner.png"; // Importa la imagen
+import banner from "./banner.png";
 
 function Header() {
   return (

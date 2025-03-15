@@ -1,0 +1,28 @@
+.container{
+    text-align: left;
+    width: 100%;
+    margin-left: 70px;
+    display: inline-block; 
+}
+
+.tarjeta {
+    font-size: 0.8em;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.tarjeta .card {
+  background-color: #ececec;
+  border: 2px solid black;
+}
+ul {
+    position: relative;
+    list-style: none;
+  }
+  
+  li::before {
+    content: '\2192';
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+  }
