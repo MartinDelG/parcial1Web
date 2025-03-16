@@ -6,15 +6,15 @@ import Robots from './robots';
 import Header from './header';
 import Footer from './footer';
 
-function App() {
+function App({ setLocale }) {
   return (
     <Router>
-      <Header />
+      <Header setLocale={setLocale} />
       <Routes>
         <Route path="/" element={<Formulario />} />
         <Route path="/robots" element={<Robots />} />
       </Routes>
-      <Footer></Footer>
+      <Footer />
     </Router>
   );
 }
