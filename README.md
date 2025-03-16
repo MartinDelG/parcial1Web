@@ -1,5 +1,5 @@
 # parcial1Web
-**Nota: ** por conflicto en las versiones instaladas, se usaron los comandos
+**Nota: ** por conflicto en las versiones instaladas, se usaron los comandos: <br />
 npm install typescript@4.9.5 --save-dev --legacy-peer-deps<br />
 npm install --legacy-peer-deps<br />
 npm start
